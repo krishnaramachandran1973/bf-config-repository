@@ -11,6 +11,13 @@ zuul:
       path: /fare-service/**
       serviceId: fare-service
       stripPrefix: true
+hystrix:
+  command:
+    fare-service:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000      
 management:
   endpoints:
     web:
