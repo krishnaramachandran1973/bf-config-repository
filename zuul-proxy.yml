@@ -7,7 +7,7 @@ eureka:
 zuul:
   ignored-services: "*"
   routes:
-    fare-service:
+    fares:
       path: /fare-service/**
       service-id: fare-service
   ribbon:
