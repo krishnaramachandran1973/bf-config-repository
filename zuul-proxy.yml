@@ -9,7 +9,7 @@ zuul:
   routes:
     fares:
       path: /fare-service/**
-      url: http://fare-service
+      url: http://localhost:8080
 management:
   endpoints:
     web:
