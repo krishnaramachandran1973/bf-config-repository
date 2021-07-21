@@ -10,6 +10,7 @@ zuul:
     fares:
       path: /fare-service/**
       serviceId: fare-service
+      stripPrefix: true
 hystrix:
   command:
     fare-service:
