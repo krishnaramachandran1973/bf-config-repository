@@ -10,14 +10,6 @@ zuul:
     fares:
       path: /fare-service/**
       service-id: fare-service
-  ribbon:
-    eager-load:
-      enabled: true
-  host:
-    connect-timeout-millis: 60000
-    socket-timeout-millis: 1000000
-ribbon:
-  read-timeout: 60000    
 management:
   endpoints:
     web:
