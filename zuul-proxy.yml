@@ -8,7 +8,7 @@ zuul:
   ignored-services: "*"
   routes:
     fare-service:
-      path: /fare/**
+      path: /fare-service/**
       service-id: fare-service
   ribbon:
     eager-load:
